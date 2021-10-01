@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -11,26 +10,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* z-index: 1; */
-    /* filter: blur(8px); */
-  /* -webkit-filter: blur(8px) ; */
- 
-  background-image: linear-gradient(to right bottom,#eaf5f0 ,#2F80ED );
+
+  background-image: linear-gradient(to right bottom, #eaf5f0, #2f80ed);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-content: center;
- 
 }
 
-.outterBox{
+.outterBox {
   position: relative;
   z-index: 10;
 
   color: beige;
-  background-image: url('weatherBig.jpg');
+  background-image: url("weatherBig.jpg");
   /* background-image: linear-gradient(to right bottom,#2F80ED,#eaf5f0  ); */
   height: 75vh;
   width: 92vw;
@@ -38,23 +33,16 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0rem 1.8rem 1.6rem rgba(0,0,0,.3);
-
+  box-shadow: 0rem 1.8rem 1.6rem rgba(0, 0, 0, 0.3);
 }
 
-
-
-
-@media only  screen and (min-width :900px ) {
-
-  .outterBox{
-    background-image: url('weatherBig.jpg');
+@media only screen and (min-width: 900px) {
+  .outterBox {
+    background-image: url("weatherBig.jpg");
     background-position: bottom;
     /* background-position: right; */
   }
-
-  }
-
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

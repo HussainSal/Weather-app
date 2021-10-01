@@ -23,9 +23,9 @@ function App() {
 
   return (
     <Fragment>
-      <div className={"App outterBox "}>
-        <Home weatherTemp={getWeatherTemp} />
-        <Weatherbox temp={weatherTemp} weather={weather} />
+      <div className={"App outterBox"}>
+        <Home weatherTemp={getWeatherTemp}/>
+        <Weatherbox temp={weatherTemp} weather={weather}/>
       </div>
     </Fragment>
   );

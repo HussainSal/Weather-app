@@ -76,8 +76,8 @@ const Home = (props) => {
     e.preventDefault();
     setStoreValue(enteredCity);
     getWeather();
-
     setEnteredCity("");
+
   };
 
 
