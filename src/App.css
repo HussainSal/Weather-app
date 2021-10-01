@@ -4,20 +4,3 @@
 
 }
 
-
-
-
-.cloudy {
-  background-image: url("cloudy.jpg");
-  
-}
-
-
-
-.clear {
-  background-image: url("weatherBig.jpg");
-}
-
-.rainy {
-  background-image: url("rainy3.jpg");
-}
